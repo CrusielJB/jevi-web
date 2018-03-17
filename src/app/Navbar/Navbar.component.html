@@ -1,0 +1,111 @@
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg  white">
+
+  <!-- Navbar brand -->
+  <img src="https://firebasestorage.googleapis.com/v0/b/jevi-9acff.appspot.com/o/logo%2Fjevi%20recortado.png?alt=media&token=71eb125b-ba71-4bdc-af9d-c876bca2d742" width=150/>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler"  data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+      aria-expanded="false" aria-label="Toggle navigation" style="color:#B1181A">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto" style="padding-left:20px;">
+          <li class="nav-item active">
+              <a class="nav-link letra" href="#">Inicio
+                  <span class="sr-only">(current)</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link letra" href="#">Categoria</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link letra" href="#">Contacto</a>
+          </li>
+
+          <form class="form-inline" style="padding-left:30px;">
+            <div class="md-form mt-0">
+                <input class="form-control mr-sm-2 letra" size="50" type="text" placeholder="Search" aria-label="Search">
+            </div>
+          </form>
+
+
+
+
+
+      </ul>
+      <!-- Links -->
+
+      <form class="form-inline">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link letra" href="/Registro">Registrate</a>
+           </li>
+           <li class="nav-item">
+              <a class="nav-link letra"data-toggle="modal" data-target="#modalContactForm" href="#">Inicia</a>
+           </li>
+           <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <!--Modal: Contact form-->
+              <div class="modal-dialog cascading-modal" role="document">
+
+                  <!--Content-->
+                  <div class="modal-content">
+
+                      <!--Header-->
+                      <div class="modal-header  white-text" style="background-color:#B1181A;">
+                          <h4 class="title">
+                             Inica Sesion</h4>
+                          <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">×</span>
+                          </button>
+                      </div>
+                      <!--Body-->
+                      <div class="modal-body">
+
+                          <!-- Material input name -->
+                          <div class="md-form form-sm">
+                              <i class="fa fa-envelope prefix"></i>
+                              <input type="text" id="materialFormNameModalEx1" class="form-control form-control-sm">
+                              <label for="materialFormNameModalEx1">Correo Electronico</label>
+                          </div>
+
+                          <!-- Material input email -->
+                          <div class="md-form form-sm">
+                              <i class="fa fa-lock prefix"></i>
+                              <input type="password" id="materialFormEmailModalEx1" class="form-control form-control-sm">
+                              <label for="materialFormEmailModalEx1">Contraseña</label>
+                              <p class="font-small  d-flex justify-content-end" style="color:#B1181A">Olvidates<a href="#" class=" ml-1" style="color:#B1181A"> Tu contraseña?</a></p>
+                          </div>
+
+
+
+                          <div class="text-center mt-4 mb-2">
+                              <button class="btn waves-effect" style="background-color:#B1181A;">Inicio
+                                  <i class="fa fa-send ml-2"></i>
+                              </button>
+                          </div>
+                          <div class="text-center mt-6 mb-2" >
+                              <div class="col-md-12">
+                                  <p class="font-small grey-text d-flex justify-content-end mt-3">Tienes Cuenta? <a href="#" class=" ml-1 font-weight-bold" style="color:#B1181A"> Registrate</a></p>
+                              </div>
+                          </div>
+
+                      </div>
+
+                  </div>
+                  <!--/.Content-->
+              </div>
+              <!--/Modal: Contact form-->
+          </div>
+
+          </ul>
+      </form>
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
